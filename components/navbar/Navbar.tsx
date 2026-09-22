@@ -87,12 +87,14 @@ export default function Navbar() {
 
           {/* 3. DESKTOP DOWNLOAD BUTTON */}
           <div className="hidden md:block pr-1 sm:pr-0">
-            <button
+            <a
+              href="https://github.com/jones2006/Swingo-website/releases/download/demo/demo.file.pdf"
+              download="demo.file.pdf"
               style={{ backgroundColor: colors?.brand?.primary || "#3b82f6" }}
               className="text-white px-6 lg:px-8 py-2.5 rounded-full font-semibold text-sm shadow-md hover:opacity-95 active:scale-95 transition-all duration-200"
             >
-              Download
-            </button>
+              <span>Download</span>
+            </a>
           </div>
 
           {/* 4. MOBILE / TABLET HAMBURGER BUTTON */}

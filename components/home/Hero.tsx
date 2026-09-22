@@ -78,7 +78,11 @@ export default function Hero() {
           {/* Action Call-To-Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto pt-1">
             {/* Primary Download Button */}
-            <button
+            <a
+              href="https://github.com/jones2006/Swingo-website/releases/download/demo/demo.file.pdf"
+              download="demo.file.pdf"
+              // target="_blank"
+              // rel="noopener noreferrer"
               style={{ backgroundColor: colors.brand.primary }}
               className="w-[95%] sm:w-auto inline-flex items-center justify-center gap-2 text-white px-7 py-4 rounded-2xl font-semibold text-sm shadow-lg shadow-indigo-500/20 hover:opacity-95 transition-all active:scale-95 cursor-pointer"
             >
@@ -92,9 +96,9 @@ export default function Hero() {
                 <line x1="8" y1="21" x2="16" y2="21" />
                 <line x1="12" y1="17" x2="12" y2="21" />
               </svg>
-              <span>Download</span>
-            </button>
 
+              <span>Download Swingo</span>
+            </a>
             {/* Secondary Interactive Button */}
             <button
               className="w-[95%] sm:w-auto inline-flex items-center justify-center gap-2 text-slate-300 bg-slate-900/40 hover:bg-slate-800/60 border border-slate-700/80 px-6 py-4 rounded-2xl font-medium text-sm transition-all active:scale-95 cursor-pointer"
