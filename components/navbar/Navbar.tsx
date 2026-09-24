@@ -30,6 +30,12 @@ export default function Navbar() {
     }
   };
 
+  const download = () => {
+    const downloadUrl =
+      "https://github.com/jones2006/Swingo-website/releases/download/v1.0.0/Swingo.Setup.1.0.0.exe";
+    window.location.href = downloadUrl;
+  };
+
   return (
     <header
       className="relative w-full text-white pt-3 pb-4 px-4 sm:px-6 z-40"
@@ -159,6 +165,7 @@ export default function Navbar() {
               <button
                 style={{ backgroundColor: colors?.brand?.primary || "#3b82f6" }}
                 className="w-full text-center text-white py-2.5 rounded-full font-semibold text-sm shadow-md active:scale-95 transition-all"
+                onClick={download}
               >
                 Download
               </button>
