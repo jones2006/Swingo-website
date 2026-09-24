@@ -79,8 +79,11 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto pt-1">
             {/* Primary Download Button */}
             <a
-              href="https://github.com/jones2006/Swingo-website/releases/download/demo/demo.file.pdf"
-              download="demo.file.pdf"
+              // href="https://github.com/jones2006/Swingo-website/releases/download/demo/demo.file.pdf"
+              // href="https://github.com/jones2006/Swingo-website/releases/tag/v1.2.0/SWINGO-Setup-1.2.0.exe"
+              // download="Setup-1.2.0.exe"
+              href="https://github.com/jones2006/Swingo-website/releases/tag/v1.2.0/SWINGO-Setup-1.0.0.exe"
+              download="SWINGO-Setup-1.0.0.exe"
               // target="_blank"
               // rel="noopener noreferrer"
               style={{ backgroundColor: colors.brand.primary }}
