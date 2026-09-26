@@ -79,7 +79,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto pt-1">
             {/* Primary Download Button */}
             <a
-              href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.0/Swingo.Setup.1.0.0.exe"
+              href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe"
               download="SWINGO-Setup-1.0.0.exe"
               // target="_blank"
               // rel="noopener noreferrer"
