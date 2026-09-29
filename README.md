@@ -136,7 +136,7 @@ And that's how SWINGO started. 🪢
 ## 👨‍💻 Built By
 
 Jones J. -
-Student / Software App Developerr
+Student / Software App Developer
 
 Surya Perumal Jeyapandi -
 Student / Software Web Developer
