@@ -33,7 +33,7 @@ export default function Navbar() {
   // const download = () => {
   //   const downloadUrl =
   //     "https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe";
-  //   window.location.href = downloadUrl;
+  //   window.open(downloadUrl, "_blank", "noopener,noreferrer");
   // };
 
   const download = () => {
@@ -177,7 +177,13 @@ export default function Navbar() {
                 className="w-full text-center text-white py-2.5 rounded-full font-semibold text-sm shadow-md active:scale-95 transition-all"
                 onClick={download}
               >
-                Download
+                <a
+                  href="https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download
+                </a>
               </button>
             </div>
           </div>
