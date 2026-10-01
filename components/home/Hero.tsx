@@ -79,10 +79,11 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto pt-1">
             {/* Primary Download Button */}
             <a
-              href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe"
-              download="SWINGO-Setup-1.0.0.exe"
-              // target="_blank"
-              // rel="noopener noreferrer"
+              // href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe"
+              // download="SWINGO-Setup-1.0.0.exe"
+              href="https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ backgroundColor: colors.brand.primary }}
               className="w-[95%] sm:w-auto inline-flex items-center justify-center gap-2 text-white px-7 py-4 rounded-2xl font-semibold text-sm shadow-lg shadow-indigo-500/20 hover:opacity-95 transition-all active:scale-95 cursor-pointer"
             >

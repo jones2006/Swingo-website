@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="no-scrollbar overflow-y-auto">
+    <main className="no-scrollbar overflow-y-auto ">
       <section id="nav">
         <Navbar />
       </section>

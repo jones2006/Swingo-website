@@ -30,10 +30,17 @@ export default function Navbar() {
     }
   };
 
+  // const download = () => {
+  //   const downloadUrl =
+  //     "https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe";
+  //   window.location.href = downloadUrl;
+  // };
+
   const download = () => {
     const downloadUrl =
-      "https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe";
-    window.location.href = downloadUrl;
+      "https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare";
+
+    window.open(downloadUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -94,8 +101,11 @@ export default function Navbar() {
           {/* 3. DESKTOP DOWNLOAD BUTTON */}
           <div className="hidden md:block pr-1 sm:pr-0">
             <a
-              href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe"
-              download="SWINGO-Setup-1.0.0.exe"
+              // href="https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe"
+              // download="SWINGO-Setup-1.0.0.exe"
+              href="https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ backgroundColor: colors?.brand?.primary || "#3b82f6" }}
               className="text-white px-6 lg:px-8 py-2.5 rounded-full font-semibold text-sm shadow-md hover:opacity-95 active:scale-95 transition-all duration-200"
             >
