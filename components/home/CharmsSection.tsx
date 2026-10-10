@@ -53,7 +53,7 @@ export default function CharmsSection() {
   return (
     <section
       id="charms"
-      className="w-full py-20 px-6 sm:px-12 text-white"
+      className="w-full py-12 px-6 sm:px-12 text-white"
       style={{ backgroundColor: colors?.brand?.background || "#070b14" }}
     >
       <div className="max-w-7xl mx-auto flex flex-col gap-8">

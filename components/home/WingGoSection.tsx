@@ -6,9 +6,19 @@ import { Smartphone, Sparkles, Layers, Zap } from "lucide-react";
 import { colors } from "@/lib/Colors";
 
 export default function WingGoSection() {
+  const download = () => {
+    const downloadUrl =
+      "https://github.com/jones2006/WingGo/releases/download/v1.0.0/WingGo-initial-App.apk";
+    window.open(downloadUrl, "_blank", "noopener,noreferrer");
+  };
+
+  const redirect = () => {
+    const redirectUrl = "https://github.com/jones2006/WingGo";
+    window.open(redirectUrl, "_blank", "noopener,noreferrer");
+  };
   return (
     <section
-      className="w-full py-20 px-6 sm:px-12  text-white border-y border-slate-800/50"
+      className="w-full py-12 px-6 sm:px-12  text-white border-y border-slate-800/50"
       style={{ backgroundColor: colors?.brand?.background || "#070b14" }}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -31,8 +41,8 @@ export default function WingGoSection() {
                 color: colors.brand.primary,
               }}
             >
-              WingGo
-            </span>{" "}
+              WingGo{"  "}
+            </span>
             — Your Android Companion
           </h2>
 
@@ -43,7 +53,10 @@ export default function WingGoSection() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-            <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex gap-3">
+            <a
+              className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex gap-3 cursor-pointer"
+              onClick={redirect}
+            >
               <Sparkles className="w-6 h-6 text-indigo-400 shrink-0" />
               <div>
                 <h4 className="font-semibold text-sm">Flying Mascot</h4>
@@ -51,8 +64,11 @@ export default function WingGoSection() {
                   Smooth physics & interactive flight routines.
                 </p>
               </div>
-            </div>
-            <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex gap-3">
+            </a>
+            <a
+              className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex gap-3 cursor-pointer"
+              onClick={redirect}
+            >
               <Layers className="w-6 h-6 text-indigo-400 shrink-0" />
               <div>
                 <h4 className="font-semibold text-sm">Floating Overlay</h4>
@@ -60,14 +76,12 @@ export default function WingGoSection() {
                   Stays over any app with zero lag execution.
                 </p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="pt-4">
-            <a
-              href="https://github.com/jones2006/Swingo-website/releases"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={download}
               className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl  hover:bg-indigo-500 text-white font-semibold text-sm shadow-lg shadow-indigo-600/30 transition-all active:scale-95 cursor-pointer"
               style={{
                 backgroundColor: colors.brand.primary,
@@ -75,7 +89,7 @@ export default function WingGoSection() {
             >
               <Zap className="w-5 h-5" />
               Download WingGo APK
-            </a>
+            </button>
           </div>
         </div>
 

@@ -40,7 +40,7 @@ export default function CreatorSection() {
 
   return (
     <section
-      className="w-full py-20 px-6 sm:px-12 text-white"
+      className="w-full py-12 px-6 sm:px-12 text-white"
       style={{ backgroundColor: colors?.brand?.background || "#070b14" }}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

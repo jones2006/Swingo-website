@@ -44,14 +44,14 @@ export default function Home() {
         <DownloadCard />
       </section>
 
-      <section id="faq">
-        <FAQ />
-      </section>
-
       <section id="creators">
         <CreatorSection />
       </section>
 
+      <section id="faq">
+        <FAQ />
+      </section>
+      
       <Footer />
     </main>
   );
