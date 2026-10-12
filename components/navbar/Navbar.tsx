@@ -30,12 +30,6 @@ export default function Navbar() {
     }
   };
 
-  // const download = () => {
-  //   const downloadUrl =
-  //     "https://github.com/jones2006/Swingo-website/releases/download/v1.0.1/Swingo.Setup.1.0.1.exe";
-  //   window.open(downloadUrl, "_blank", "noopener,noreferrer");
-  // };
-
   const download = () => {
     const downloadUrl =
       "https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare";
