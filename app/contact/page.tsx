@@ -1,5 +1,3 @@
-//
-
 "use client";
 
 import React from "react";
@@ -43,8 +41,8 @@ export default function ContactPage() {
       title: "GitHub Issues",
       description:
         "Found a bug or have a feature request? Open an issue on our repo.",
-      linkText: "github.com/swingo-desktop",
-      href: "https://github.com",
+      linkText: "github.com/Swingo-website",
+      href: "https://github.com/jones2006/Swingo-website",
       external: true,
       icon: (
         <svg
@@ -61,11 +59,11 @@ export default function ContactPage() {
       ),
     },
     {
-      title: "Social",
+      title: "Download Swingo",
       description:
-        "Want to follow Swingo's journey? Follow us for updates and news.",
+        " Give your screen a personality upgrade today, no monthly subscriptions.",
       linkText: "@swingodesktop",
-      href: "https://x.com",
+      href: "https://apps.microsoft.com/detail/9NRCMH42WMVR?hl=en-us&gl=IN&ocid=pdpshare",
       external: true,
       icon: (
         <svg
@@ -180,7 +178,8 @@ export default function ContactPage() {
           {/* View FAQ Button */}
           <Link
             href="/#faq"
-            className="inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-indigo-600/30 transition-colors"
+            style={{ backgroundColor: colors.brand.primary }}
+            className="inline-flex items-center justify-center w-52 py-2.5 rounded-2xl hover:bg-indigo-500 text-white font-semibold text-xs sm:text-sm shadow-lg shadow-indigo-600/30 transition-colors"
           >
             View FAQ →
           </Link>
